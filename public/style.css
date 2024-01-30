@@ -543,3 +543,318 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+
+.flex {
+  display: flex;
+}
+
+.h-44 {
+  height: 11rem;
+}
+
+.h-52 {
+  height: 13rem;
+}
+
+.h-\[\] {
+  height: ;
+}
+
+.h-\[27\] {
+  height: 27;
+}
+
+.h-\[242\] {
+  height: 242;
+}
+
+.h-\[242px\] {
+  height: 242px;
+}
+
+.h-\[300px\] {
+  height: 300px;
+}
+
+.h-\[500px\] {
+  height: 500px;
+}
+
+.h-\[766px\] {
+  height: 766px;
+}
+
+.h-\[400px\] {
+  height: 400px;
+}
+
+.h-\[23px\] {
+  height: 23px;
+}
+
+.h-\[350px\] {
+  height: 350px;
+}
+
+.h-\[450px\] {
+  height: 450px;
+}
+
+.h-\[360px\] {
+  height: 360px;
+}
+
+.w-\[\] {
+  width: ;
+}
+
+.w-\[172px\] {
+  width: 172px;
+}
+
+.w-\[348px\] {
+  width: 348px;
+}
+
+.w-\[500px\] {
+  width: 500px;
+}
+
+.w-\[174px\] {
+  width: 174px;
+}
+
+.w-\[1px\] {
+  width: 1px;
+}
+
+.w-\[160px\] {
+  width: 160px;
+}
+
+.w-\[140px\] {
+  width: 140px;
+}
+
+.w-\[180px\] {
+  width: 180px;
+}
+
+.w-\[190px\] {
+  width: 190px;
+}
+
+.w-\[200px\] {
+  width: 200px;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.space-x-6 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1.5rem * var(--tw-space-x-reverse));
+  margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.bg-PortBlack {
+  --tw-bg-opacity: 1;
+  background-color: rgb(21 21 21 / var(--tw-bg-opacity));
+}
+
+.bg-\[\] {
+  background-color: ;
+}
+
+.bg-\[100\] {
+  background-color: 100;
+}
+
+.bg-\[length\] {
+  background-color: length;
+}
+
+.bg-\[url\(\'images\/hero-bcg\.png\'\)\] {
+  background-image: url('images/hero-bcg.png');
+}
+
+.bg-profile-img-tablet {
+  background-image: url('./images/image-profile-tablet.webp');
+}
+
+.bg-images-thumbnail-project-2-large {
+  background-image: url('./images/thumbnail-project-2-large.webp');
+}
+
+.bg-\[url\(\'\.\.\/public\/assets\/images\/banner\.svg\'\)\] {
+  background-image: url('../public/assets/images/banner.svg');
+}
+
+.bg-\[url\(\'\.\.\/images\/\'\)\] {
+  background-image: url('../images/');
+}
+
+.bg-\[url\(\'\.\.\/images\/image\'\)\] {
+  background-image: url('../images/image');
+}
+
+.bg-\[url\(\'\.\.\/images\/image\/profile\'\)\] {
+  background-image: url('../images/image/profile');
+}
+
+.bg-\[url\(\'\.\.\/images\/image\/profile-mobile\'\)\] {
+  background-image: url('../images/image/profile-mobile');
+}
+
+.bg-\[url\(\'\.\.\/images\/image\/profile-mobile\.we\'\)\] {
+  background-image: url('../images/image/profile-mobile.we');
+}
+
+.bg-\[url\(\'\.\.\/images\/image\/profile-mobile\.webp\'\)\] {
+  background-image: url('../images/image/profile-mobile.webp');
+}
+
+.bg-\[url\(\'https\:\/\/res\.cloudinary\.com\/dlykqebw2\/image\/upload\/v1705393744\/ykwjapurgv7o3ahi1yqq\.png\'\)\] {
+  background-image: url('https://res.cloudinary.com/dlykqebw2/image/upload/v1705393744/ykwjapurgv7o3ahi1yqq.png');
+}
+
+.bg-\[url\(\'\'\)\] {
+  background-image: url('');
+}
+
+.bg-\[url\(\'\.\.\/\'\)\] {
+  background-image: url('../');
+}
+
+.bg-\[url\(\'\.\.\/images\'\)\] {
+  background-image: url('../images');
+}
+
+.bg-\[url\(\'\.\.\/images\/image-\'\)\] {
+  background-image: url('../images/image-');
+}
+
+.bg-\[url\(\'\.\.\/images\/image-profile\'\)\] {
+  background-image: url('../images/image-profile');
+}
+
+.bg-\[url\(\'\.\.\/images\/image-profile-mobile\'\)\] {
+  background-image: url('../images/image-profile-mobile');
+}
+
+.bg-\[url\(\'\.\.\/images\/image-profile-mobile\.webp\'\)\] {
+  background-image: url('../images/image-profile-mobile.webp');
+}
+
+.bg-\[url\(\'https\:\/\/res\.cloudinary\.com\/dlykqebw2\/image\/upload\/v1706582801\/image-profile-mobile_gopqaq\.webp\'\)\] {
+  background-image: url('https://res.cloudinary.com/dlykqebw2/image/upload/v1706582801/image-profile-mobile_gopqaq.webp');
+}
+
+.bg-\[url\(\'\/\'\)\] {
+  background-image: url('/');
+}
+
+.bg-\[url\(\'\/image\'\)\] {
+  background-image: url('/image');
+}
+
+.bg-\[url\(\'\/images\/image-profile-mobile\.webp\'\)\] {
+  background-image: url('/images/image-profile-mobile.webp');
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-contain {
+  background-size: contain;
+}
+
+.bg-auto {
+  background-size: auto;
+}
+
+.bg-\[length\:174\] {
+  background-size: 174;
+}
+
+.bg-\[length\:174px\] {
+  background-size: 174px;
+}
+
+.bg-\[length\:174px_242px\] {
+  background-size: 174px 242px;
+}
+
+.bg-\[length\:172px_\] {
+  background-size: 172px;
+}
+
+.bg-\[length\:172px_274px\] {
+  background-size: 172px 274px;
+}
+
+.bg-\[length\:172px_244px\] {
+  background-size: 172px 244px;
+}
+
+.bg-\[length\:172px_242px\] {
+  background-size: 172px 242px;
+}
+
+.bg-\[200px\] {
+  background-position: 200px;
+}
+
+.bg-\[100\%\] {
+  background-position: 100%;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
+.bg-repeat-y {
+  background-repeat: repeat-y;
+}
+
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.font-SpaceGrotesk {
+  font-family: Space Grotesk, sans-serif;;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.text-PortWhite {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
