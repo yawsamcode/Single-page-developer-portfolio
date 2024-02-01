@@ -20,7 +20,7 @@ document
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!emailRegex.test(emailInput.value.trim())) {
       valid = false;
-      emailError.innerText = "Enter a valid email address";
+      emailError.innerText = "Sorry inavlid format here";
     } else {
       emailError.innerText = "";
     }
