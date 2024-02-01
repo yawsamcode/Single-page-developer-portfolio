@@ -2780,6 +2780,26 @@ video {
     background-image: url('https://res.cloudinary.com/dlykqebw2/image/upload/v1706582801/image-profile-tablet_svkfpg.webp');
   }
 
+  .md\:bg-\[url\(\'\'\)\] {
+    background-image: url('');
+  }
+
+  .md\:bg-\[url\(\'\.\/\'\)\] {
+    background-image: url('./');
+  }
+
+  .md\:bg-\[url\(\'\.\/images\'\)\] {
+    background-image: url('./images');
+  }
+
+  .md\:bg-\[url\(\'\.\/images\/\'\)\] {
+    background-image: url('./images/');
+  }
+
+  .md\:bg-\[url\(\'\.\/images\/image-profile-tablet\.webp\'\)\] {
+    background-image: url('./images/image-profile-tablet.webp');
+  }
+
   .md\:bg-\[length\:300px_460px\] {
     background-size: 300px 460px;
   }
