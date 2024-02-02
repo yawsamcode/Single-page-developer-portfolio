@@ -657,16 +657,8 @@ video {
   inset-inline-end: 0.25rem;
 }
 
-.left-1\/2 {
-  left: 50%;
-}
-
 .start-1 {
   inset-inline-start: 0.25rem;
-}
-
-.top-1\/2 {
-  top: 50%;
 }
 
 .isolate {
@@ -728,10 +720,6 @@ video {
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
-}
-
-.-mt-24 {
-  margin-top: -6rem;
 }
 
 .mb-1 {
@@ -865,6 +853,10 @@ video {
   height: 0.5rem;
 }
 
+.max-h-20 {
+  max-height: 5rem;
+}
+
 .w-1 {
   width: 0.25rem;
 }
@@ -879,10 +871,6 @@ video {
 
 .w-36 {
   width: 9rem;
-}
-
-.w-44 {
-  width: 11rem;
 }
 
 .w-\[this-is\\\\\] {
@@ -939,16 +927,6 @@ video {
 
 .border-separate {
   border-collapse: separate;
-}
-
-.-translate-x-1\/2 {
-  --tw-translate-x: -50%;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.-translate-y-1\/2 {
-  --tw-translate-y: -50%;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .\!transform {
@@ -2724,8 +2702,16 @@ video {
     margin-right: 0px;
   }
 
-  .md\:-mt-24 {
-    margin-top: -6rem;
+  .md\:mb-20 {
+    margin-bottom: 5rem;
+  }
+
+  .md\:mt-24 {
+    margin-top: 6rem;
+  }
+
+  .md\:block {
+    display: block;
   }
 
   .md\:flex {
@@ -2760,56 +2746,12 @@ video {
     gap: 2.5rem;
   }
 
-  .md\:gap-7 {
-    gap: 1.75rem;
+  .md\:gap-6 {
+    gap: 1.5rem;
   }
 
   .md\:text-wrap {
     text-wrap: wrap;
-  }
-
-  .md\:bg-\[url\(\'https\:\/\/res\.cloudinary\.com\/dlykqebw2\/image\/upload\/v1706793492\/image-profile-desktop_evss28\.webp\'\)\] {
-    background-image: url('https://res.cloudinary.com/dlykqebw2/image/upload/v1706793492/image-profile-desktop_evss28.webp');
-  }
-
-  .md\:bg-\[url\(\'https\:\/\/res\.cloudinary\.com\/dlykqebw2\/image\/upload\/w_1000\2c c_fill\2c ar_1\:1\2c g_auto\2c r_max\2c bo_5px_solid_red\2c b_rgb\:262c35\/v1706793492\/image-profile-desktop_evss28\.webp\'\)\] {
-    background-image: url('https://res.cloudinary.com/dlykqebw2/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1706793492/image-profile-desktop_evss28.webp');
-  }
-
-  .md\:bg-\[url\(\'https\:\/\/res\.cloudinary\.com\/dlykqebw2\/image\/upload\/v1706582801\/image-profile-tablet_svkfpg\.webp\'\)\] {
-    background-image: url('https://res.cloudinary.com/dlykqebw2/image/upload/v1706582801/image-profile-tablet_svkfpg.webp');
-  }
-
-  .md\:bg-\[url\(\'\'\)\] {
-    background-image: url('');
-  }
-
-  .md\:bg-\[url\(\'\.\/\'\)\] {
-    background-image: url('./');
-  }
-
-  .md\:bg-\[url\(\'\.\/images\'\)\] {
-    background-image: url('./images');
-  }
-
-  .md\:bg-\[url\(\'\.\/images\/\'\)\] {
-    background-image: url('./images/');
-  }
-
-  .md\:bg-\[url\(\'\.\/images\/image-profile-tablet\.webp\'\)\] {
-    background-image: url('./images/image-profile-tablet.webp');
-  }
-
-  .md\:bg-\[length\:300px_460px\] {
-    background-size: 300px 460px;
-  }
-
-  .md\:bg-right-top {
-    background-position: right top;
-  }
-
-  .md\:bg-no-repeat {
-    background-repeat: no-repeat;
   }
 
   .md\:px-7 {
@@ -2837,10 +2779,6 @@ video {
 
   .md\:pb-20 {
     padding-bottom: 5rem;
-  }
-
-  .md\:pr-20 {
-    padding-right: 5rem;
   }
 
   .md\:pt-20 {
@@ -2880,14 +2818,6 @@ video {
 }
 
 @media (min-width: 1024px) {
-  .lg\:absolute {
-    position: absolute;
-  }
-
-  .lg\:relative {
-    position: relative;
-  }
-
   .lg\:ml-10 {
     margin-left: 2.5rem;
   }
@@ -2900,10 +2830,6 @@ video {
     display: grid;
   }
 
-  .lg\:hidden {
-    display: none;
-  }
-
   .lg\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -2912,16 +2838,12 @@ video {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
-  .lg\:items-center {
-    align-items: center;
-  }
-
-  .lg\:justify-center {
-    justify-content: center;
-  }
-
   .lg\:gap-16 {
     gap: 4rem;
+  }
+
+  .lg\:gap-8 {
+    gap: 2rem;
   }
 
   .lg\:px-40 {
@@ -2949,15 +2871,6 @@ video {
 
   .lg\:decoration-8 {
     text-decoration-thickness: 8px;
-  }
-
-  .lg\:opacity-20 {
-    opacity: 0.2;
-  }
-
-  .lg\:hover\:text-PortGreen:hover {
-    --tw-text-opacity: 1;
-    color: rgb(78 225 160 / var(--tw-text-opacity));
   }
 }
 
