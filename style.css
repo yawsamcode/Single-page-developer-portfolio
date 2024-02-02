@@ -2761,10 +2761,6 @@ video {
     padding-bottom: 4rem;
   }
 
-  .md\:pb-6 {
-    padding-bottom: 1.5rem;
-  }
-
   .md\:pt-10 {
     padding-top: 2.5rem;
   }
@@ -2792,6 +2788,11 @@ video {
   .md\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
+  }
+
+  .md\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 
   .md\:text-5xl {
@@ -2846,6 +2847,11 @@ video {
   .lg\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
+  }
+
+  .lg\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
   }
 
   .lg\:text-7xl {
