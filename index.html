@@ -421,7 +421,7 @@
       <div class="pt-12 pb-24">
         <form
           id="contactForm"
-          action="https://formspree.io/f/meqyqjva"
+          action=""
           method="post"
         >
           <!-- Name Input -->
@@ -433,7 +433,7 @@
               placeholder="JOHN DOE"
               class="w-full bg-DarkGray px-3 py-2 border-b"
             />
-            <p id="nameError" class="text-xs mt-1 pb-5"></p>
+            <p id="nameError" class="text-xs mt-1 pb-5 text-left"></p>
           </div>
 
           <!-- Email Input -->
@@ -445,7 +445,7 @@
               placeholder="JOHNDOE@GMAIL.COM"
               class="w-full bg-DarkGray px-3 py-2 border-b"
             />
-            <p id="emailError" class="text-xs mt-1 pb-5"></p>
+            <p id="emailError" class="text-xs mt-1 pb-5 text-left"></p>
           </div>
 
           <!-- Message Input -->
@@ -457,7 +457,7 @@
               rows="4"
               class="w-full bg-DarkGray px-3 py-2 border-b"
             ></textarea>
-            <p id="messageError" class="text-xs mt-1"></p>
+            <p id="messageError" class="text-xs mt-1 text-left text-PortGreen"></p>
           </div>
 
           <!-- Submit Button -->
@@ -473,8 +473,9 @@
           </button>
         </form>
       </div>
+    
     </div>
-
+    
     <footer class="pb-20 px-4 bg-DarkGray lg:px-40 lg:pb-20">
       <hr />
       <div
@@ -510,6 +511,10 @@
         reserved.
       </div>
     </footer>
-    <script src="/public/app.js"></script>
+
+    <script
+  type="text/javascript"
+  src="../node_modules/tw-elements/dist/js/tw-elements.umd.min.js"></script>
+    <script src="app.js"></script>
   </body>
 </html>
